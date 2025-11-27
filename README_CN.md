@@ -1,5 +1,3 @@
-Markdown
-
 # NFS Hot Pursuit Remastered 自动匹配助手 (Lobby Assistant)
 
 这是一个基于 Python 和计算机视觉技术的辅助工具，专为《极品飞车：热力追踪 重制版》(Need for Speed: Hot Pursuit Remastered) 设计。脚本代码中加入了大量详细注释，非常适合想入门 Python 和计算机视觉的脚本小子 (Script Kiddies) 或初学者学习参考。
@@ -39,7 +37,8 @@ nfs-autopilot/
 ├── nfs_bot.py              <-- 核心脚本代码
 ├── requirements.txt        <-- 依赖库列表
 └── README.md               <-- 说明文档
-🚀 安装步骤
+
+## 🚀 安装步骤
 下载本项目： 点击右上角的 Code -> Download ZIP，解压到本地。
 
 安装依赖库： 在解压后的目录中打开终端（CMD 或 PowerShell），运行：
@@ -53,7 +52,7 @@ pip install -r requirements.txt
 
 注意：请确保 assets 文件夹内包含对应的游戏 UI 截图，文件名需与代码中定义的一致。
 
-📝 自定义选车配置
+## 📝 自定义选车配置
 您可以打开 nfs_bot.py，在顶部的 CAR_SELECTION_CONFIG 区域修改选车逻辑。
 
 数字含义：代表在该类别下，脚本自动按“右方向键”的次数。
@@ -79,7 +78,7 @@ CAR_SELECTION_CONFIG = {
         "e": 1
     }
 }
-🕹️ 脚本使用与逻辑
+## 🕹️ 脚本使用与逻辑
 准备工作：
 
 启动 OBS，添加游戏源并开启“虚拟摄像机”。
@@ -108,7 +107,7 @@ CAR_SELECTION_CONFIG = {
 
 脚本代码采用模块化设计。若需要实现“选择玩家指定车漆”而非随机车漆，请自行修改代码中的 sequence_color_confirm_random 函数逻辑。
 
-⌨️ 快捷键控制
+## ⌨️ 快捷键控制
 7: 运行模式
 
 9: 睡眠模式
@@ -117,5 +116,5 @@ CAR_SELECTION_CONFIG = {
 
 V: 显示/隐藏调试窗口
 
-📄 开源协议
+## 📄 开源协议
 MIT License.
