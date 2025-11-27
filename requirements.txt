@@ -1,0 +1,4 @@
+opencv-python>=4.5.0
+numpy>=1.20.0
+pydirectinput>=1.0.4
+keyboard>=0.13.5
