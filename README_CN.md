@@ -25,7 +25,7 @@
 
 在发布前，请确保您的文件夹结构如下所示：
 
-```text
+```
 nfs-autopilot/
 │
 ├── assets/                 <-- [必须] 存放所有游戏 UI 截图 (.png)
@@ -37,16 +37,19 @@ nfs-autopilot/
 ├── nfs_bot.py              <-- 核心脚本代码
 ├── requirements.txt        <-- 依赖库列表
 └── README.md               <-- 说明文档
-```text
+
+```
 
 ## 🚀 安装步骤
 下载本项目： 点击右上角的 Code -> Download ZIP，解压到本地。
 
 安装依赖库： 在解压后的目录中打开终端（CMD 或 PowerShell），运行：
 
-Bash
 
+```
 pip install -r requirements.txt
+```
+
 准备素材：
 
 脚本运行依赖 assets 文件夹中的游戏截图。
